@@ -14,11 +14,13 @@ main {
   height: -moz-fit-content;
   height: fit-content;
   width: 100%;
+  cursor: default;
 }
 
 body {
   position: relative;
   font-family: 'Roboto', sans-serif;
+  cursor: default;
 }
 
 ::-webkit-scrollbar {
@@ -475,6 +477,7 @@ input:-internal-autofill-selected {
   position: absolute;
   background: #52C0FF;
   opacity: 0.25;
+  cursor: default;
 }
 
 .middle svg {
