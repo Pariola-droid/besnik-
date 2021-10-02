@@ -34,7 +34,7 @@
             width: 458px;
             height: 470px;
             max-height: 470px;
-            background: #186a9c;
+            // background: #186a9c;
             // margin-bottom: auto;
 
             & h2 {
@@ -57,6 +57,46 @@
                 letter-spacing: 0.01em;
                 color: #727272;
                 margin-top: .5rem;
+            }
+
+            & .icon_bag {
+                width: fit-content;
+                height: fit-content;
+                margin-top: 3rem;
+
+                & .bag {
+                    width: 381px;
+                    height: 92px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    position: relative;
+
+                    & .icon {
+                        position: absolute;
+                        left: -60px;
+                        top: -28.5px;
+
+                        // & img {
+                        //     width: 60px;
+                        //     height: 57px;
+                        // }  
+
+                        // margin-right: auto;
+                    }
+
+                    & .content {
+                        width: 286px;
+                        display: flex;
+                        justify-content: space-between;
+                        flex-direction: column;
+                        margin-left: auto;
+                    }
+
+                    &:not(:last-of-type) {
+                        margin-bottom: 2rem;
+                    }
+                }
             }
         }
     }
