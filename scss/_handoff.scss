@@ -91,6 +91,24 @@
                         justify-content: space-between;
                         flex-direction: column;
                         margin-left: auto;
+
+                        & h1 {
+                            font-family: 'Bai Jamjuree', sans-serif;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 28px;
+                            color: #222222;
+                        }
+
+                        & p {
+                            font-family: 'Roboto', sans-serif;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 15px;
+                            line-height: 27px;
+                            color: #727272;
+                        }
                     }
 
                     &:not(:last-of-type) {

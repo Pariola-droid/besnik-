@@ -802,6 +802,24 @@ input:-internal-autofill-selected {
   margin-left: auto;
 }
 
+.handoff .wrapper .text .icon_bag .bag .content h1 {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #222222;
+}
+
+.handoff .wrapper .text .icon_bag .bag .content p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  color: #727272;
+}
+
 .handoff .wrapper .text .icon_bag .bag:not(:last-of-type) {
   margin-bottom: 2rem;
 }
