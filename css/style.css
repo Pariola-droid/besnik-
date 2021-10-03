@@ -802,7 +802,7 @@ input:-internal-autofill-selected {
   margin-left: auto;
 }
 
-.handoff .wrapper .text .icon_bag .bag .content h1 {
+.handoff .wrapper .text .icon_bag .bag .content h3 {
   font-family: 'Bai Jamjuree', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -822,5 +822,259 @@ input:-internal-autofill-selected {
 
 .handoff .wrapper .text .icon_bag .bag:not(:last-of-type) {
   margin-bottom: 2rem;
+}
+
+.newsletter {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: #41B3F4;
+  margin-top: 99px;
+  margin-bottom: 99px;
+  overflow: hidden;
+}
+
+.newsletter .wrapper {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 1090px;
+  height: 522px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.newsletter .wrapper div {
+  height: 200px;
+  width: 200px;
+}
+
+.newsletter .wrapper .sub {
+  height: 240px;
+  width: 361px;
+  position: relative;
+}
+
+.newsletter .wrapper .sub::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 133px;
+  background: #718176;
+  top: -30px;
+  right: 40px;
+}
+
+.newsletter .wrapper .sub h3 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: left;
+  letter-spacing: 0.01em;
+  color: #414449;
+  max-width: 210px;
+  margin-bottom: 3.2rem;
+}
+
+.newsletter .wrapper .text {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.newsletter .wrapper .text h1 {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 42px;
+}
+
+.newsletter .wrapper .text button {
+  width: 160px;
+  height: 58px;
+  background: #E15C19;
+  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.newsletter .wrapper .card {
+  position: relative;
+  height: 510.68px;
+  width: 586.69px;
+}
+
+.newsletter .wrapper .card img {
+  position: absolute;
+  top: -210px;
+  left: -260px;
+}
+
+footer {
+  height: 175px;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+footer .wrapper {
+  width: 1081px;
+  height: 117px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .wrapper .Qlinks {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: auto;
+}
+
+footer .wrapper .Qlinks .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-right: auto;
+}
+
+footer .wrapper .Qlinks .links a {
+  color: #404041;
+}
+
+footer .wrapper .Qlinks .links li {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+footer .wrapper .Qlinks .links li:not(:last-of-type) {
+  margin-right: 2rem;
+}
+
+footer .wrapper .Qlinks .auth_socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: auto;
+}
+
+footer .wrapper .Qlinks .auth_socials a {
+  color: #404041;
+}
+
+footer .wrapper .Qlinks .auth_socials li {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+footer .wrapper .Qlinks .auth_socials li:not(:last-of-type) {
+  margin-right: 2rem;
+}
+
+footer .wrapper .Qlinks .auth_socials li:nth-child(1) a, footer .wrapper .Qlinks .auth_socials li:nth-child(2) a {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #404041;
+  margin-right: 2.5rem;
+}
+
+footer .wrapper .Qlinks .auth_socials li:nth-child(5) a svg {
+  margin-bottom: 1px;
+  position: relative;
+}
+
+footer .wrapper .end {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .wrapper .end span {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(27, 27, 27, 0.35);
+}
+
+footer .wrapper .end div {
+  height: 1px;
+  width: 661px;
+  background-color: #565B58;
 }
 /*# sourceMappingURL=style.css.map */
