@@ -21,16 +21,38 @@
         align-items: center;
         justify-content: flex-start;
 
+        @media (max-width:550px) {
+            overflow: hidden;
+            width: 88%;
+            flex-wrap: wrap;
+            height: fit-content;
+            // padding: 2rem 0;
+            padding-top: 3rem;
+        }
+
         & div {
             // background-color: #b241f4;
-            height: 200px;
-            width: 200px;
+            // height: 200px;
+            // width: 200px;
         }
 
         & .sub {
             height: 240px;
             width: 361px;
             position: relative;
+
+            @media (max-width:550px) {
+                width: 100%;                
+                max-width: 361px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: fit-content;
+                
+                & h3 {
+                    margin-bottom: 0;
+                }
+            }
             // background-color: #b241f4;
 
             &::after {
@@ -41,6 +63,10 @@
                 background: #718176;
                 top: -30px;
                 right: 40px;
+
+                @media (max-width:550px) {
+                    display: none;
+                }                
             }
 
             & h3 {
@@ -62,6 +88,16 @@
             height: fit-content;
             padding-bottom: 30px;
             padding-left: 30px;
+
+            @media (max-width:550px) {
+                padding-left: 0px;
+                margin-top: 2rem;
+
+                & h1 {
+                    font-size: 50px;
+                    line-height: 60px;
+                }
+            }   
 
             & h1 {
                 font-family: 'Bai Jamjuree', sans-serif;
@@ -96,6 +132,18 @@
             position: relative;
             height: 510.68px;
             width: 586.69px;
+
+            @media (max-width:550px) {
+               margin-top: 0rem;
+               width: 100%;
+               max-width: 586.69px;
+
+               & img {
+                   left: -60%;
+                   transform: scale(.8);
+                   right: 60%;
+               }
+            } 
             // background-color: #E15C19;
 
             & img {
