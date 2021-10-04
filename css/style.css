@@ -1018,6 +1018,7 @@ input:-internal-autofill-selected {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+    padding: 2rem 0;
     padding-top: 3rem;
   }
 }
@@ -1137,15 +1138,7 @@ input:-internal-autofill-selected {
 
 @media (max-width: 550px) {
   .newsletter .wrapper .card {
-    margin-top: 0rem;
-    width: 100%;
-    max-width: 586.69px;
-  }
-  .newsletter .wrapper .card img {
-    left: -60%;
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8);
-    right: 60%;
+    display: none;
   }
 }
 

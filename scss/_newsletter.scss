@@ -26,7 +26,7 @@
             width: 88%;
             flex-wrap: wrap;
             height: fit-content;
-            // padding: 2rem 0;
+            padding: 2rem 0;
             padding-top: 3rem;
         }
 
@@ -134,15 +134,16 @@
             width: 586.69px;
 
             @media (max-width:550px) {
-               margin-top: 0rem;
-               width: 100%;
-               max-width: 586.69px;
+            //    margin-top: 0rem;
+            //    width: 100%;
+            //    max-width: 586.69px;
 
-               & img {
-                   left: -60%;
-                   transform: scale(.8);
-                   right: 60%;
-               }
+            //    & img {
+            //        left: -60%;
+            //        transform: scale(.8);
+            //        right: 60%;
+            //    }
+            display: none;
             } 
             // background-color: #E15C19;
 
