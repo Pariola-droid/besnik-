@@ -10,6 +10,8 @@
 
     @media (max-width:550px) {
         overflow: hidden;
+        height: fit-content;
+        padding: 2rem 0;
     }
 
     & .wrapper {
@@ -22,10 +24,14 @@
         justify-content: space-between;
         flex-direction: column;
 
+        @media (max-width:550px) {
+            width: 88%;
+        }
+
         & .head {
             width: fit-content;
             height: fit-content;
-
+            
             & h1 {
                 font-family: 'Bai Jamjuree', sans-serif;
                 font-weight: bold;
@@ -34,6 +40,11 @@
                 text-align: center;
                 letter-spacing: 0.01em;
                 color: #0D1111;
+
+                @media (max-width:550px) {
+                    font-size: 60px;
+                    line-height: 60px;                    
+                }
             }
 
             & p {
@@ -62,6 +73,12 @@
             border-image-slice: 1;
             display: flex;
             justify-content: flex-start;
+
+            @media (max-width:550px) {
+                width: 100%;
+                height: fit-content;
+                flex-direction: column;
+            }
 
             & div {
                 display: flex;
