@@ -565,7 +565,7 @@ input:-internal-autofill-selected {
 
 @media (max-width: 550px) {
   .middle .wrap .item {
-    margin: 1.8rem 0;
+    margin: 1.8rem auto;
   }
 }
 
@@ -581,6 +581,7 @@ input:-internal-autofill-selected {
 @media (max-width: 550px) {
   .middle .wrap .item h3 {
     font-size: 25px;
+    text-align: center;
   }
 }
 
@@ -593,6 +594,12 @@ input:-internal-autofill-selected {
   letter-spacing: 0.02em;
   color: #5F5F64;
   max-width: 256px;
+}
+
+@media (max-width: 550px) {
+  .middle .wrap .item p {
+    text-align: center;
+  }
 }
 
 .customer {
