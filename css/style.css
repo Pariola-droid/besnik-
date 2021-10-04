@@ -504,7 +504,9 @@ input:-internal-autofill-selected {
 
 @media (max-width: 550px) {
   .middle {
-    overflow: hidden;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
 }
 
@@ -537,6 +539,16 @@ input:-internal-autofill-selected {
           justify-content: space-between;
 }
 
+@media (max-width: 550px) {
+  .middle .wrap {
+    width: 88%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 3rem 0;
+    padding-top: 4rem;
+  }
+}
+
 .middle .wrap .item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -551,6 +563,12 @@ input:-internal-autofill-selected {
   height: 144px;
 }
 
+@media (max-width: 550px) {
+  .middle .wrap .item {
+    margin: 1.8rem 0;
+  }
+}
+
 .middle .wrap .item h3 {
   font-family: 'Bai Jamjuree', sans-serif;
   font-style: normal;
@@ -558,6 +576,12 @@ input:-internal-autofill-selected {
   font-size: 30px;
   line-height: 38px;
   color: #202020;
+}
+
+@media (max-width: 550px) {
+  .middle .wrap .item h3 {
+    font-size: 25px;
+  }
 }
 
 .middle .wrap .item p {
@@ -1042,7 +1066,6 @@ footer .wrapper {
 footer .wrapper .Qlinks {
   width: 100%;
   height: auto;
-  background-color: #ac4343;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1219,7 +1242,7 @@ footer .wrapper_small_screen .head .all_link {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 
 footer .wrapper_small_screen .head .all_link a {
@@ -1266,7 +1289,6 @@ footer .wrapper_small_screen .head .all_link .auth {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: auto;
 }
 
 footer .wrapper_small_screen .head .all_link .auth li {
@@ -1285,11 +1307,10 @@ footer .wrapper_small_screen .head .all_link .auth li a {
   text-align: center;
   letter-spacing: 0.01em;
   color: #404041;
-  margin-right: 2.5rem;
 }
 
 footer .wrapper_small_screen .head .all_link .auth li:not(:last-of-type) {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 footer .wrapper_small_screen .follow {

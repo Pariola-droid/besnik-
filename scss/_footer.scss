@@ -28,7 +28,7 @@ footer {
         & .Qlinks {
             width: 100%;
             height: auto;
-            background-color: rgb(172, 67, 67);
+            // background-color: rgb(172, 67, 67);
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -163,7 +163,7 @@ footer {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                margin-top: 2rem;
+                margin-top: 2.5rem;
 
                 a {
                     color: #404041;
@@ -193,8 +193,7 @@ footer {
                     height: fit-content;
                     display: flex;
                     align-items: flex-start;
-                    flex-direction: column;
-                    margin-bottom: auto;                    
+                    flex-direction: column;                 
 
                     & li {
                         text-align: right;
@@ -211,11 +210,10 @@ footer {
                             text-align: center;
                             letter-spacing: 0.01em;
                             color: #404041;
-                            margin-right: 2.5rem;
                         } 
 
                         &:not(:last-of-type) {
-                            margin-bottom: 2rem;
+                            margin-bottom: 1.5rem;
                         }
                     }  
                 }
