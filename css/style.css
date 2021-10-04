@@ -1449,6 +1449,7 @@ footer .wrapper_small_screen .follow {
   display: -ms-grid;
   display: grid;
   place-items: center;
+  margin: 1rem 0;
 }
 
 footer .wrapper_small_screen .follow .socials {
@@ -1456,16 +1457,16 @@ footer .wrapper_small_screen .follow .socials {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 footer .wrapper_small_screen .follow .socials li {
-  margin: 0 1.2rem;
+  margin-right: 1.2rem;
 }
 
 footer .wrapper_small_screen .follow .socials li:nth-child(3) a svg {
