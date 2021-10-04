@@ -11,6 +11,8 @@
 
     @media (max-width:550px) {
         overflow: hidden;
+        max-height: unset;
+        padding-bottom: 80px;
     }
 
     & .wrapper {
@@ -176,12 +178,21 @@
             align-items: center;
             justify-content: center;
 
+        @media (max-width:550px) {
+            height: fit-content;
+            width: 88%;
+        }
+
         & .wrap {
             width: 100%;
             display: flex;
             align-items: center;
             justify-content: space-between;
             margin-top: -4rem;
+
+            @media (max-width:550px) {
+                flex-wrap: wrap;
+            }
 
             & .title {
                 height: 154px;
@@ -218,6 +229,12 @@
                 align-items: center;
                 justify-content: space-between;
 
+                @media (max-width:550px) {
+                    width: 100%;
+                    height: fit-content;
+                    flex-wrap: wrap;
+                }
+
                 & .item {
                     max-width: 196px;
                     height: 163px;
@@ -225,6 +242,11 @@
                     justify-content: space-between;
                     flex-direction: column;
 
+                    @media (max-width:550px) {
+                        width: 196px;                        
+                        margin-top: 3rem;
+                       
+                    }
 
                     & h3 {
                         font-family: 'Inter', sans-serif;
