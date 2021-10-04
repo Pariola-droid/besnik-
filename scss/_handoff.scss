@@ -5,6 +5,10 @@
     place-items: center;
     // margin-bottom: 2rem;
 
+    @media (max-width:550px) {
+        overflow: hidden;
+    }
+
     & .wrapper {
         width: 1090px;
         height: fit-content;
