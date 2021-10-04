@@ -19,7 +19,7 @@
         justify-content: space-between;
 
         @media (max-width:550px) {
-            width: 88%;
+            width: 80%;
             flex-wrap: wrap;
             // flex-direction: column;
         }
@@ -50,8 +50,8 @@
 
                 @media (max-width:550px) {
                     transform: scale(.7);
-                    left: -50%;
-                    right: 50%;
+                    left: -60%;
+                    right: 60%;
                     top: -30px;
                     // flex-direction: column;
                 }

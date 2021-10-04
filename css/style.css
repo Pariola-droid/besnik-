@@ -789,7 +789,7 @@ input:-internal-autofill-selected {
 
 @media (max-width: 550px) {
   .handoff .wrapper {
-    width: 88%;
+    width: 80%;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
@@ -825,8 +825,8 @@ input:-internal-autofill-selected {
   .handoff .wrapper .image img {
     -webkit-transform: scale(0.7);
             transform: scale(0.7);
-    left: -50%;
-    right: 50%;
+    left: -60%;
+    right: 60%;
     top: -30px;
   }
 }
