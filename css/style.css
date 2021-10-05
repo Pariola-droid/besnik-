@@ -439,13 +439,14 @@ input:-internal-autofill-selected {
 .header .wrapper .image .absolute .card {
   position: absolute;
   top: -120px;
-  left: -100px;
+  left: -50px;
 }
 
 @media (max-width: 550px) {
   .header .wrapper .image .absolute .card {
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
+    left: -100px;
   }
 }
 

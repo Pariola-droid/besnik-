@@ -209,11 +209,12 @@
                 & .card {
                     position: absolute;
                     top: -120px;
-                    left: -100px;
+                    left: -50px;
 
                     @media (max-width:550px) {
-                            transform: scale(.8);
-                        }
+                        transform: scale(.8);
+                        left: -100px;
+                    }
                 }
 
                 & .rt {
